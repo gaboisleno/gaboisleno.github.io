@@ -1,0 +1,49 @@
+{
+    "RESUME": "Resume",
+    "LANG": "Español",
+    "AGE": "Age {{age}} years old",
+    "GRADE": {
+        "TITLE": "University Systems Analyst",
+        "DESCRIPTION": "Versed in numerous programming languages ​​including C, C#, Java, JavaScript, Typescript, HTML, CSS, SQL."
+    },
+    "KNOWLEDGE": {
+        "TITLE": "Knowledge areas",
+        "FRONTEND": "Frontend developer with Angular 2+, AngularJs, React.",
+        "BACKEND": "Backend developer with Spring-Boot, LoopBack, Strapi.",
+        "DOCKER": "Regular use of Docker.",
+        "ANDROID": "Experience developing Android (Android Studio and Nativescript).",
+        "LINUX": "Linux as daily use."
+    },
+    "EXPERIENCE": {
+        "TITLE": "Professional experience",
+        "LIKIDA": {
+            "TITLE": "Likida - Web Developer (7/2022 - 12/2022)",
+            "DESCRIPTION": "Likida was a startup trying to develop a platform for buying, selling, lending and auctioning NFTs. I have worked developing part of the backend and frontend of the application with the help of a specialist in NFTs. The technologies used were Angular and Strapi (backend based on javascript)."
+        },
+        "MANGOO": {
+            "TITLE": "Mangoo Dev - Web Developer (11/2020 - Actualidad)",
+            "DESCRIPTION": "I have been working in different teams for each project, applying agile development methodologies. In these projects my role is purely development. Front-end development in Angular and React. Back-end development in Java with Spring-Boot."
+        },
+        "TUX": {
+            "TITLE": "Tux Solutions - Web Developer (10/2018 - 2020)",
+            "DESCRIPTION": "Development of several web applications in Angular, all dockerized on a server with CI/CD configured, maintaining code and developing new functionalities both in the frontend and in the backend. Direct communication with customers giving support and understanding their needs."
+        },
+        "TUCUOTA": {
+            "TITLE": "TuCuotaOnline - Web Developer (07/2019 -10/2019)",
+            "DESCRIPTION": "Working with a small team of people, as a startup, to develop an Angular web application capable of approving and managing loans online."
+        },
+        "JUBBLER": {
+            "TITLE": "Jubbler Tecnologies - Developer (02/2018 -09/2018)",
+            "DESCRIPTION": "Using VisualFox to support different companies that used their ERPs on that platform."
+        }
+    },
+    "LANGUAGES": {
+        "TITLE": "Languages",
+        "DESCRIPTION": "English (advanced), Spanish (native)."
+    },
+    "HOBBIES": {
+        "GAMEDEV": "In my spare time I develop videogames as a hobby -",
+        "PIXELART": "I like to draw and make 2D animations -",
+        "SERVER": "I have a web server mounted on a Raspberry Pi 3, running Alpine Linux as the operating system, and Docker with Nginx and a reverse proxy."
+    }
+}

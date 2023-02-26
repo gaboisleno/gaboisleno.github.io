@@ -9,88 +9,86 @@
 <body>
 
   <div class="col-lg-8 mx-auto p-4 py-md-5">
-    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+    <header class="d-flex justify-content-between pb-3 mb-5 border-bottom">
+
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <span class="fs-4">Resume</span>
+        <span class="fs-4">{{ "RESUME" | translate }}</span>
       </a>
+
+      <div class="d-flex flex-row align-items-center">
+        <img class="mx-2" src="/assets/icons/language-solid.svg" alt="lang" width="32px">
+        <button class="btn btn-link" (click)="toggleTranslation()">{{ "LANG" | translate }}</button>
+      </div>
+    
     </header>
   
     <main>
       <h2><b>Gabriel Isleño</b></h2>
 
       <p class="fs-5 col-md-8">Rosario, Santa fe - Argentina</p>
-      <p class="fs-5 col-md-8">E-mail: <a href="mailto:isleno.gabriel@gmail.com">isleno.gabriel@gmail.com</a></p>  
+      <p class="fs-5 col-md-8">E-mail: <a href="mailto:isleno.gabriel@gmail.com">isleno.gabriel@gmail.com</a></p>
+      <p>30 Jul 1994</p>
+      <p>{{ "AGE" | translate : {age} }}</p>
       
       <hr class="col-3 col-md-2">
   
-      <p>Analista Universitario de Sistemas</p>
-      <p>Versado en numerosos lenguajes de programación incluidos C, C#, Java, JavaScript, Typescript, HTML, CSS, SQL.</p>
+      <p>{{ "GRADE.TITLE" | translate }}</p>
+      <p>{{ "GRADE.DESCRIPTION" | translate }}</p>
 
       <div class="row">
       
-        <h4><b>Áreas de conocimiento</b></h4>
+        <h4><b>{{ "KNOWLEDGE.TITLE" | translate }}</b></h4>
         <ul>
-          <li>Desarrollo frontend en Angular 2+, AngularJs, React.</li>
-          <li>Desarrollo backend con Spring-Boot, LoopBack, Strapi.</li>
-          <li>Uso regular de Docker.</li>
-          <li>Experiencia desarrollando en Android (Android Studio y Nativescript).</li>
-          <li>Linux como uso diario.</li>
+          <li>{{ "KNOWLEDGE.FRONTEND" | translate }}</li>
+          <li>{{ "KNOWLEDGE.BACKEND" | translate }}</li>
+          <li>{{ "KNOWLEDGE.DOCKER" | translate }}</li>
+          <li>{{ "KNOWLEDGE.ANDROID" | translate }}</li>
+          <li>{{ "KNOWLEDGE.LINUX" | translate }}</li>
         </ul>
         
         <hr class="col-3 col-md-2">
 
-        <h4><b>Experiencia Profesional</b></h4>
+        <h4><b>{{ "EXPERIENCE.TITLE" | translate }}</b></h4>
         
         <div>
-          <h5><b>Likida</b> - Web Developer (7/2022 - 12/2022)</h5>
-          <p>Likida fue una startup para intentar desarrollar una plataforma de compra, venta, presta y
-            subasta de NFTs. He trabajado desarrollando parte del backend y frontend de la aplicación
-            con la ayuda de un especialista en NFTs. Las tecnologías usadas eran Angular y Strapi
-            (backend basado en javascript).</p>
+          <h5>{{ "EXPERIENCE.LIKIDA.TITLE" | translate }}</h5>
+          <p>{{ "EXPERIENCE.LIKIDA.DESCRIPTION" | translate }}</p>
         </div>
         
         <div>
-          <h5><b>Mangoo Dev</b> - Web Developer (11/2020 - Actualidad)</h5>
-          <p>He estado trabajando en equipos diferentes para cada proyecto, aplicando metodologías
-            ágiles de desarrollo. En estos proyectos mi rol es puramente de desarrollo.
-            Desarrollo Front-end en Angular y React.
-            Desarrollo Back-end en Java con Spring-Boot.</p>
+          <h5>{{ "EXPERIENCE.MANGOO.TITLE" | translate }}</h5>
+          <p>{{ "EXPERIENCE.MANGOO.DESCRIPTION" | translate }}</p>
         </div>
 
         <div>
-          <h5><b>Tux Solutions</b> - Web Developer (10/2018 - 2020)</h5>
-          <p>Desarrollo de varias aplicaciones web en Angular, todas dockerizadas en un servidor con
-            CI/CD configurado, manteniendo código y desarrollando nuevas funcionalidades tanto en el
-            frontend como en el backend. Comunicación directa con los clientes dando soporte y
-            entendiendo sus necesidades.</p>
+          <h5>{{ "EXPERIENCE.TUX.TITLE" | translate }}</h5>
+          <p>{{ "EXPERIENCE.TUX.DESCRIPTION" | translate }}</p>
         </div>
 
         <div>
-          <h5><b>TuCuotaOnline</b> - Web Developer (07/2019 -10/2019)</h5>
-          <p>Trabajando con un equipo reducido de personas, a modo de startup, para desarrollar una
-            aplicación web en Angular capaz de aprobar y gestionar préstamos en línea.</p>
+          <h5>{{ "EXPERIENCE.TUCUOTA.TITLE" | translate }}</h5>
+          <p>{{ "EXPERIENCE.TUCUOTA.DESCRIPTION" | translate }}</p>
         </div>
 
         <div>
-          <h5><b>Jubbler Tecnologies</b> - Developer (02/2018 -09/2018)</h5>
-          <p>Utilizando VisualFox para dar soporte a diferentes empresas que usaban sus ERP en esa
-            plataforma.</p>
+          <h5>{{ "EXPERIENCE.JUBBLER.TITLE" | translate }}</h5>
+          <p>{{ "EXPERIENCE.JUBBLER.DESCRIPTION" | translate }}</p>
         </div>
 
         <hr class="col-3 col-md-2">
 
         <div>
-          <h5><b>Idiomas</b></h5>
-          <p>Inglés(avanzado), Español (nativo).</p>
+          <h5><b>{{ "LANGUAGES.TITLE" | translate }}</b></h5>
+          <p>{{ "LANGUAGES.DESCRIPTION" | translate }}</p>
         </div>
 
         <hr class="col-3 col-md-2">
 
         <div>
           <h5><b>Hobbies</b></h5>
-          <p>En mis tiempos libres desarrollo videojuegos como hobby - Itch <a href="https://gaboisleno.itch.io/">gaboisleno.itch.io</a></p>
-          <p>Me gusta dibujar y realizar animaciones 2D - Twitter <a href="https://twitter.com/gaboisleno">@Gaboisleno</a></p>
-          <p>Tengo un servidor web montado en una RaspberryPi 3, corriendo Alpine Linux como sistema operativo, y Docker con Nginx y un reverse proxy.</p>
+          <p>{{ "HOBBIES.GAMEDEV" | translate }} <a href="https://gaboisleno.itch.io/">gaboisleno.itch.io</a></p>
+          <p>{{ "HOBBIES.PIXELART" | translate }} <a href="https://twitter.com/gaboisleno">@Gaboisleno</a></p>
+          <p>{{ "HOBBIES.SERVER" | translate }}</p>
         </div>
 
       </div>
