@@ -1,0 +1,87 @@
+{
+  "RESUME": "Resume",
+  "LANG": "Español",
+  "AGE": " years old",
+  "GRADE": {
+    "TITLE": "Graduated as a University Analyst in Systems at the National University of Rosario",
+    "DESCRIPTION": "Versed in numerous languages including C, C#, Java, JavaScript, Typescript, HTML, CSS, SQL."
+  },
+  "KNOWLEDGE": {
+    "TITLE": "Knowledge areas",
+    "ITEMS": [
+      "Frontend developer with Angular 2+, AngularJs, React.",
+      "Backend developer with Spring-Boot, LoopBack, Strapi.",
+      "Regular use of Docker.",
+      "Experience developing Android (Android Studio and Nativescript).",
+      "PostgreSQL, MySQL, MongoDB"
+    ],
+    "CHIPS": [
+      "Angular",
+      "React",
+      "Javascript",
+      "Rxjs",
+      "Spring-Boot",
+      "LoopBack",
+      "Strapi",
+      "Docker",
+      "Nativescript",
+      "PostgreSQL",
+      "MySql",
+      "MongoDB",
+      "Bootstrap",
+      "Linux"
+    ]
+  },
+  "EXPERIENCE": {
+    "TITLE": "Professional experience",
+    "LIST": [
+      {
+        "START": "November 2023",
+        "TITLE": "Globant",
+        "DESCRIPTION": "Front-end developer using Angular framework, working in teams with more than 10 persons and using agile methodologies."
+      },
+
+      {
+        "START": "July 2022",
+        "TITLE": "Likida",
+        "DESCRIPTION": "Likida was a startup trying to develop a platform for buying, selling, lending and auctioning NFTs. I have worked developing part of the backend and frontend of the application with the help of a specialist in NFTs. The technologies used were Angular and Strapi (backend based on javascript)."
+      },
+
+      {
+        "START": "November 2020",
+        "TITLE": "Mangoo Dev",
+        "DESCRIPTION": "I have been working in different teams for each project, applying agile development methodologies. In these projects my role is purely development. Front-end development in Angular and React. Back-end development in Java with Spring-Boot."
+      },
+
+      {
+        "START": "July 2019",
+        "TITLE": "TuCuotaOnline",
+        "DESCRIPTION": "Working with a small team of people, as a startup, to develop an Angular web application capable of approving and managing loans online."
+      },
+
+      {
+        "START": "October 2018",
+        "TITLE": "Tux Solutions",
+        "DESCRIPTION": "Development of several web applications in Angular, all dockerized on a server with CI/CD configured, maintaining code and developing new functionalities both in the frontend and in the backend. Direct communication with customers giving support and understanding their needs."
+      },
+
+      {
+        "START": "February 2018",
+        "TITLE": "Jubbler Tecnologies",
+        "DESCRIPTION": "Using VisualFox to support different companies that used their ERPs on that platform."
+      }
+    ]
+  },
+  "LANGUAGES": {
+    "TITLE": "Languages",
+    "DESCRIPTION": "English (advanced), Spanish (native)."
+  },
+  "HOBBIES": {
+    "TITLE": "Hobbies",
+    "LIST": [
+      "In my spare time I develop videogames as a hobby -",
+      "I like to draw and make 2D animations -",
+      "I have a web server mounted on a Raspberry Pi 3, running Alpine Linux as the operating system, and Docker with Nginx and a reverse proxy."
+    ]
+  }
+}

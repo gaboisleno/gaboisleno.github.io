@@ -1,0 +1,88 @@
+{
+  "RESUME": "Curriculum",
+  "LANG": "English",
+  "AGE": " años",
+  "GRADE": {
+    "TITLE": "Graduado como Analista Universitario en Sistemas en la Univesidad Nacional de Rosario.",
+    "DESCRIPTION": "Versado en numerosos lenguajes incluidos C, C#, Java, JavaScript, Typescript, HTML, CSS, SQL."
+  },
+  "KNOWLEDGE": {
+    "TITLE": "Áreas de conocimiento",
+    "ITEMS": [
+      "Desarrollo y maquetacion front-end con Angular 2+, AngularJs, React.",
+      "Desarrollo y planificacion back-end con Spring-Boot, LoopBack, Strapi.",
+      "Uso de Docker para la contenerización de las aplicaciones.",
+      "Experiencia desarrollando en Android (Android Studio y Nativescript).",
+      "Uso de diferentes bases de datos como PostgreSQL, MySQL, MongoDB."
+    ],
+    "CHIPS": [
+      "Angular",
+      "React",
+      "Javascript",
+      "Rxjs",
+      "Spring-Boot",
+      "LoopBack",
+      "Strapi",
+      "Docker",
+      "Nativescript",
+      "PostgreSQL",
+      "MySql",
+      "MongoDB",
+      "Bootstrap",
+      "Linux"
+    ]
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiencia Profesional",
+    "LIST": [
+      {
+        "START": "Noviembre 2023",
+        "TITLE": "Globant",
+        "DESCRIPTION": "Desarrollador front-end usando el framework de Angular, en equipos de más de 10 personas y usando metodologías ágiles de desarrollo."
+      },
+      {
+        "_comment": "(7/2022 - 12/2022)",
+        "START": "Julio 2022",
+        "TITLE": "Likida",
+        "DESCRIPTION": "Likida fue una startup para intentar desarrollar una plataforma de compra, venta, presta y subasta de NFTs. He trabajado desarrollando parte del backend y frontend de la aplicación con la ayuda de un especialista en NFTs. Las tecnologías usadas eran Angular y Strapi (backend basado en javascript)."
+      },
+      {
+        "_comment": "(11/2020 - 11/2023)",
+        "START": "Noviembre 2020",
+        "TITLE": "Mangoo Dev",
+        "DESCRIPTION": "He estado trabajando en equipos diferentes para cada proyecto, aplicando metodologías ágiles de desarrollo. En estos proyectos mi rol es puramente de desarrollo. Desarrollo Front-end en Angular y React. Desarrollo Back-end en Java con Spring-Boot."
+      },
+      {
+        "_comment": "(07/2019 -10/2019)",
+        "START": "Julio 2019",
+        "TITLE": "TuCuotaOnline",
+        "DESCRIPTION": "Trabajando con un equipo reducido de personas, a modo de startup, para desarrollar una aplicación web en Angular capaz de aprobar y gestionar préstamos en línea."
+      },
+      {
+        "_comment": "(10/2018 - 11/2020)",
+        "START": "Octubre 2018",
+        "TITLE": "Tux Solutions",
+        "DESCRIPTION": "Desarrollo de varias aplicaciones web en Angular, todas dockerizadas en un servidor con CI/CD configurado, manteniendo código y desarrollando nuevas funcionalidades tanto en el frontend como en el backend. Comunicación directa con los clientes dando soporte y entendiendo sus necesidades."
+      },
+      {
+        "_comment": "(02/2018 -09/2018)",
+        "START": "Febrero 2018",
+        "TITLE": "Jubbler Tecnologies",
+        "DESCRIPTION": "Utilizando VisualFox para dar soporte a diferentes empresas que usaban sus ERP en esa plataforma."
+      }
+    ]
+  },
+  "LANGUAGES": {
+    "TITLE": "Idiomas",
+    "DESCRIPTION": "Inglés (avanzado), Español (nativo)."
+  },
+  "HOBBIES": {
+    "TITLE": "Hobbies",
+    "LIST": [
+      "En mis tiempos libres desarrollo videojuegos como hobby.",
+      "Me gusta dibujar y realizar animaciones 2D.",
+      "Tengo un servidor web montado en una RaspberryPi 3, corriendo Alpine Linux como sistema operativo, y Docker con Nginx y un reverse proxy.",
+      "Aprender nuevas tecnologías"
+    ]
+  }
+}

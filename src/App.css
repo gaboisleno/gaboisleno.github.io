@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 2rem;
+  padding-bottom: 0;
+  text-align: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px -20px;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar button {
+  margin-left: 10px;
+}
+
+.active {
+  color: white;
+  background: var(--primary);
+  font-weight: 700;
+  border: none;
+}
+
+footer {
+  display: block;
+  height: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+}
+
+.pill-badge {
+  cursor: default;
+  border: 1px solid var(--title-color);
+  color: var(--title-color);
+  border-radius: 10rem;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  text-align: center;
+  margin-right: 4px;
+  margin-bottom: 8px;
+}
+
+.history-line {
+  border-left: 1px solid var(--primary);
+  padding-left: 20px;
+}
+
+.timeline {
+  position: relative;
+  & > h3 {
+    margin: 0;
+  }
+  & > p {
+    margin-bottom: 40px;
+  }
+}
+
+.bullet {
+  position: absolute;
+  top: 10px;
+  left: -25px;
+  height: 10px;
+  width: 10px;
+  background-color: var(--primary);
+  border-radius: 100%;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
