@@ -4,6 +4,7 @@ import GithubIcon from "../assets/icons/GithubIcon";
 import LinkedinIcon from "../assets/icons/LinkedinIcon";
 import EmailIcon from "../assets/icons/EmailIcon";
 import CakeIcon from "../assets/icons/CakeIcon";
+import TwitterIcon from "../assets/icons/TwitterIcon";
 
 export function getAge(): number {
   const born = new Date(1994, 7, 30);
@@ -76,6 +77,15 @@ export function Home() {
               className="align"
             >
               <LinkedinIcon width={20} height={20}></LinkedinIcon>Linkedin
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://twitter.com/GaboIsleno"
+              target="_blank"
+              className="align"
+            >
+              <TwitterIcon width={20} height={20}></TwitterIcon>@GaboIsleno
             </a>
           </p>
         </div>
