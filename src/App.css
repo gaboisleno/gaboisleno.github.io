@@ -38,9 +38,13 @@ a {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   color: var(--title-color);
+}
+p,
+span,
+small {
+  color: #717171;
 }
 
 .pill-badge {
@@ -49,7 +53,7 @@ h4 {
   color: var(--title-color);
   border-radius: 10rem;
   display: inline-block;
-  padding: 0.25em 0.4em;
+  padding: 0.25em 0.6em;
   text-align: center;
   margin-right: 4px;
   margin-bottom: 8px;
