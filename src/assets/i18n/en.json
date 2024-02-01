@@ -3,8 +3,8 @@
   "LANG": "Español",
   "AGE": " years old",
   "GRADE": {
-    "TITLE": "Graduated as a University Analyst in Systems at the National University of Rosario",
-    "DESCRIPTION": "Versed in numerous languages including C, C#, Java, JavaScript, Typescript, HTML, CSS, SQL."
+    "TITLE": "Completed a degree as a Systems University Analyst at the National University of Rosario.",
+    "DESCRIPTION": "Versed in numerous languages including C, C#, Java, JavaScript, TypeScript, HTML, CSS, SQL."
   },
   "KNOWLEDGE": {
     "TITLE": "Knowledge areas",
@@ -38,37 +38,37 @@
       {
         "START": "November 2023",
         "TITLE": "Globant",
-        "DESCRIPTION": "Front-end developer using Angular framework, working in teams with more than 10 persons and using agile methodologies."
+        "DESCRIPTION": "Front-end developer experienced with the Angular framework, collaborating in teams of more than 10 individuals and utilizing agile methodologies."
       },
 
       {
         "START": "July 2022",
         "TITLE": "Likida",
-        "DESCRIPTION": "Likida was a startup trying to develop a platform for buying, selling, lending and auctioning NFTs. I have worked developing part of the backend and frontend of the application with the help of a specialist in NFTs. The technologies used were Angular and Strapi (backend based on javascript)."
+        "DESCRIPTION": "Likida was a startup aiming to create a platform for buying, selling, lending, and auctioning NFTs. I worked on developing both the backend and frontend of the application, collaborating with an NFT specialist. The technologies used included Angular for the frontend and Strapi, a JavaScript-based backend."
       },
 
       {
         "START": "November 2020",
         "TITLE": "Mangoo Dev",
-        "DESCRIPTION": "I have been working in different teams for each project, applying agile development methodologies. In these projects my role is purely development. Front-end development in Angular and React. Back-end development in Java with Spring-Boot."
+        "DESCRIPTION": "I have been working in diverse teams for each project, applying agile development methodologies. In these projects, my role focuses solely on development, including front-end development using Angular and React, as well as back-end development in Java with Spring-Boot."
       },
 
       {
         "START": "July 2019",
         "TITLE": "TuCuotaOnline",
-        "DESCRIPTION": "Working with a small team of people, as a startup, to develop an Angular web application capable of approving and managing loans online."
+        "DESCRIPTION": "Collaborating with a small startup team to develop an Angular web application capable of processing and managing loans online."
       },
 
       {
         "START": "October 2018",
         "TITLE": "Tux Solutions",
-        "DESCRIPTION": "Development of several web applications in Angular, all dockerized on a server with CI/CD configured, maintaining code and developing new functionalities both in the frontend and in the backend. Direct communication with customers giving support and understanding their needs."
+        "DESCRIPTION": "Developed multiple web applications in Angular, all containerized with Docker on a server with configured CI/CD. Responsibilities included maintaining code, implementing new functionalities in both the frontend and backend. Engaged in direct communication with customers, providing support, and understanding their needs."
       },
 
       {
         "START": "February 2018",
         "TITLE": "Jubbler Tecnologies",
-        "DESCRIPTION": "Using VisualFox to support different companies that used their ERPs on that platform."
+        "DESCRIPTION": "Provided support to various companies using VisualFox for their ERPs on that platform."
       }
     ]
   },
@@ -79,9 +79,9 @@
   "HOBBIES": {
     "TITLE": "Hobbies",
     "LIST": [
-      "In my spare time I develop videogames as a hobby -",
-      "I like to draw and make 2D animations -",
-      "I have a web server mounted on a Raspberry Pi 3, running Alpine Linux as the operating system, and Docker with Nginx and a reverse proxy."
+      "In my free time, I engage in hobbyist video game development.",
+      "I have a passion for drawing and creating 2D animations.",
+      "I have a web server set up on a Raspberry Pi 3, running Alpine Linux as the operating system. The server utilizes Docker with Nginx and a reverse proxy."
     ]
   }
 }
