@@ -1,10 +1,10 @@
 import { useContext, useEffect } from "react";
-import { TranslateContext } from "../context/TranslateContext";
+import CakeIcon from "../assets/icons/CakeIcon";
+import EmailIcon from "../assets/icons/EmailIcon";
 import GithubIcon from "../assets/icons/GithubIcon";
 import LinkedinIcon from "../assets/icons/LinkedinIcon";
-import EmailIcon from "../assets/icons/EmailIcon";
-import CakeIcon from "../assets/icons/CakeIcon";
 import TwitterIcon from "../assets/icons/TwitterIcon";
+import { TranslateContext } from "../context/TranslateContext";
 
 export function getAge(): number {
   const born = new Date(1994, 7, 30);
@@ -129,12 +129,16 @@ export function Home() {
         </div>
 
         <div className="my-5">
-          <h2 className="text-3xl font-bold mb-4">{data.EXPERIENCE.TITLE}</h2>
+          <h2 className="text-3xl font-bold mb-4"> {data.EXPERIENCE.TITLE}</h2>
           <div className="border-l pl-5 border-violet-600 relative">
             {data.EXPERIENCE.LIST.map((item: any, idx: number) => (
               <div className="mb-5 relative" key={idx}>
                 <div className="absolute w-[10px] h-[10px] bg-violet-600 rounded-full -left-[26px] top-[10px]"></div>
-                <h3 className="text-xl font-bold">{item.TITLE}</h3>
+                <h3 className="text-xl font-bold hover:underline">
+                  <a href={item.LINK} target="_blank">
+                    {item.TITLE}
+                  </a>
+                </h3>
                 <small className="text-gray-500">{item.START}</small>
                 <div className="text-gray-500">{item.DESCRIPTION}</div>
               </div>

@@ -29,46 +29,59 @@
       "MySql",
       "MongoDB",
       "Bootstrap",
-      "Linux"
+      "Linux",
+      "Git"
     ]
   },
   "EXPERIENCE": {
     "TITLE": "Experiencia Profesional",
     "LIST": [
       {
+        "START": "Actualidad",
+        "TITLE": "Globant",
+        "DESCRIPTION": "Estoy trabajando en un proyecto como desarrollador frontend para AES Corporation, una compañía multinacional que se dedica a la generación y distribución de energía eléctrica.",
+        "LINK": "https://globant.com"
+      },
+      {
         "START": "Noviembre 2023",
         "TITLE": "Globant",
-        "DESCRIPTION": "Desarrollador front-end Angular. He participado en el desarrollo de una aplicación multi-tenant que se adapta a las necesidades de tres países diferentes, partiendo de una misma base de código, optimizando así la eficiencia y la escalabilidad del producto."
+        "DESCRIPTION": "Trabajé como desarrollador frontend usando Angular para la empresa GDN, en un equipo de alrededor de 15 personas. El proyecto estuvo centrado en permitir a los usuarios acumular puntos con sus compras en el supermercado, lo que permitiría posteriormente ser canjeado por diversas recompensas y beneficios.",
+        "LINK": "https://globant.com"
       },
       {
         "_comment": "(7/2022 - 12/2022)",
         "START": "Julio 2022",
         "TITLE": "Likida",
-        "DESCRIPTION": "Likida fue una startup para intentar desarrollar una plataforma de compra, venta, presta y subasta de NFTs. He trabajado desarrollando parte del backend y frontend de la aplicación con la ayuda de un especialista en NFTs. Las tecnologías usadas eran Angular y Strapi (backend basado en javascript)."
+        "DESCRIPTION": "Likida fue una startup para intentar desarrollar una plataforma de compra, venta, presta y subasta de NFTs. He trabajado desarrollando parte del backend y frontend de la aplicación con la ayuda de un especialista en NFTs. Las tecnologías usadas eran Angular y Strapi (backend basado en javascript).",
+        "LINK": "https://likida.io/"
       },
       {
         "_comment": "(11/2020 - 11/2023)",
         "START": "Noviembre 2020",
         "TITLE": "Mangoo Dev",
-        "DESCRIPTION": "He estado trabajando en equipos diferentes para cada proyecto, aplicando metodologías ágiles de desarrollo. En estos proyectos mi rol es puramente de desarrollo. Desarrollo Front-end en Angular y React. Desarrollo Back-end en Java con Spring-Boot."
+        "DESCRIPTION": "He estado trabajando en equipos diferentes para cada proyecto, aplicando metodologías ágiles de desarrollo. En estos proyectos mi rol es puramente de desarrollo. Desarrollo Front-end en Angular y React. Desarrollo Back-end en Java con Spring-Boot.",
+        "LINK": "https://mangoodev.com/"
       },
       {
         "_comment": "(07/2019 -10/2019)",
         "START": "Julio 2019",
         "TITLE": "TuCuotaOnline",
-        "DESCRIPTION": "Trabajando con un equipo reducido de personas, a modo de startup, para desarrollar una aplicación web en Angular capaz de aprobar y gestionar préstamos en línea."
+        "DESCRIPTION": "Trabajando con un equipo reducido de personas, a modo de startup, para desarrollar una aplicación web en Angular capaz de aprobar y gestionar préstamos en línea.",
+        "LINK": "https://tucuota.online/"
       },
       {
         "_comment": "(10/2018 - 11/2020)",
         "START": "Octubre 2018",
         "TITLE": "Tux Solutions",
-        "DESCRIPTION": "Desarrollo de varias aplicaciones web en Angular, todas dockerizadas en un servidor con CI/CD configurado, manteniendo código y desarrollando nuevas funcionalidades tanto en el frontend como en el backend. Comunicación directa con los clientes dando soporte y entendiendo sus necesidades."
+        "DESCRIPTION": "Desarrollo de varias aplicaciones web en Angular, todas dockerizadas en un servidor con CI/CD configurado, manteniendo código y desarrollando nuevas funcionalidades tanto en el frontend como en el backend. Comunicación directa con los clientes dando soporte y entendiendo sus necesidades.",
+        "LINK": "https://tux-solutions.com/"
       },
       {
         "_comment": "(02/2018 -09/2018)",
         "START": "Febrero 2018",
-        "TITLE": "Jubbler Tecnologies",
-        "DESCRIPTION": "Utilizando VisualFox para dar soporte a diferentes empresas que usaban sus ERP en esa plataforma."
+        "TITLE": "Jubbler Technologies",
+        "DESCRIPTION": "Utilizando VisualFox para dar soporte a diferentes empresas que usaban sus ERP en esa plataforma.",
+        "LINK": "https://jubbler.tech/"
       }
     ]
   },
@@ -82,7 +95,7 @@
       "En mis tiempos libres desarrollo videojuegos como hobby.",
       "Me gusta dibujar y realizar animaciones 2D.",
       "Tengo un servidor web montado en una RaspberryPi 3, corriendo Alpine Linux como sistema operativo, y Docker con Nginx y un reverse proxy.",
-      "Aprender nuevas tecnologías"
+      "Aprender nuevas tecnologías."
     ]
   }
 }

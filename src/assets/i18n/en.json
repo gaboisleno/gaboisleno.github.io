@@ -29,46 +29,58 @@
       "MySql",
       "MongoDB",
       "Bootstrap",
-      "Linux"
+      "Linux",
+      "Git"
     ]
   },
   "EXPERIENCE": {
     "TITLE": "Professional experience",
     "LIST": [
       {
+        "START": "Current",
+        "TITLE": "Globant",
+        "DESCRIPTION": "I am working on a project as a frontend developer for AES Corporation, a multinational company that specializes in the generation and distribution of electrical energy.",
+        "LINK": "https://globant.com"
+      },
+      {
         "START": "November 2023",
         "TITLE": "Globant",
-        "DESCRIPTION": "Angular front-end developer. I have participated in the development of a multi-tenant application that adapts to the needs of three different countries, starting from the same codebase, optimizing both efficiency and product scalability."
+        "DESCRIPTION": "Worked as a frontend developer using Angular for GDN company, in a team of around 15 people. The project focused on enabling users to accumulate points with their supermarket purchases, which would later be redeemed for various rewards and benefits.",
+        "LINK": "https://globant.com"
       },
-
       {
         "START": "July 2022",
         "TITLE": "Likida",
-        "DESCRIPTION": "Likida was a startup aiming to create a platform for buying, selling, lending, and auctioning NFTs. I worked on developing both the backend and frontend of the application, collaborating with an NFT specialist. The technologies used included Angular for the frontend and Strapi, a JavaScript-based backend."
+        "DESCRIPTION": "Likida was a startup aiming to create a platform for buying, selling, lending, and auctioning NFTs. I worked on developing both the backend and frontend of the application, collaborating with an NFT specialist. The technologies used included Angular for the frontend and Strapi, a JavaScript-based backend.",
+        "LINK": "https://likida.io/"
       },
 
       {
         "START": "November 2020",
         "TITLE": "Mangoo Dev",
-        "DESCRIPTION": "I have been working in diverse teams for each project, applying agile development methodologies. In these projects, my role focuses solely on development, including front-end development using Angular and React, as well as back-end development in Java with Spring-Boot."
+        "DESCRIPTION": "I have been working in diverse teams for each project, applying agile development methodologies. In these projects, my role focuses solely on development, including front-end development using Angular and React, as well as back-end development in Java with Spring-Boot.",
+        "LINK": "https://mangoodev.com/"
       },
 
       {
         "START": "July 2019",
         "TITLE": "TuCuotaOnline",
-        "DESCRIPTION": "Collaborating with a small startup team to develop an Angular web application capable of processing and managing loans online."
+        "DESCRIPTION": "Collaborating with a small startup team to develop an Angular web application capable of processing and managing loans online.",
+        "LINK": "https://tucuota.online/"
       },
 
       {
         "START": "October 2018",
         "TITLE": "Tux Solutions",
-        "DESCRIPTION": "Developed multiple web applications in Angular, all containerized with Docker on a server with configured CI/CD. Responsibilities included maintaining code, implementing new functionalities in both the frontend and backend. Engaged in direct communication with customers, providing support, and understanding their needs."
+        "DESCRIPTION": "Developed multiple web applications in Angular, all containerized with Docker on a server with configured CI/CD. Responsibilities included maintaining code, implementing new functionalities in both the frontend and backend. Engaged in direct communication with customers, providing support, and understanding their needs.",
+        "LINK": "https://tux-solutions.com/"
       },
 
       {
         "START": "February 2018",
         "TITLE": "Jubbler Tecnologies",
-        "DESCRIPTION": "Provided support to various companies using VisualFox for their ERPs on that platform."
+        "DESCRIPTION": "Provided support to various companies using VisualFox for their ERPs on that platform.",
+        "LINK": "https://jubbler.tech/"
       }
     ]
   },
