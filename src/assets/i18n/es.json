@@ -17,18 +17,19 @@
     ],
     "CHIPS": [
       "Angular",
-      "React",
       "Javascript",
       "Rxjs",
+      "Bootstrap",
+      "Tailwind",
+      "Jest",
+      "Karma",
+      "ESLint",
+      "Prettier",
       "Spring-Boot",
-      "LoopBack",
-      "Strapi",
       "Docker",
-      "Nativescript",
       "PostgreSQL",
       "MySql",
       "MongoDB",
-      "Bootstrap",
       "Linux",
       "Git"
     ]
@@ -37,15 +38,21 @@
     "TITLE": "Experiencia Profesional",
     "LIST": [
       {
-        "START": "Actualidad",
+        "START": "Julio 2025",
         "TITLE": "Globant",
-        "DESCRIPTION": "Estoy trabajando en un proyecto como desarrollador frontend para AES Corporation, una compañía multinacional que se dedica a la generación y distribución de energía eléctrica.",
+        "DESCRIPTION": "Participé en el desarrollo del front-end de un backoffice para la empresa COTO, utilizando Angular 19. Implementamos la API de Signals. Aseguramos la calidad del código mediante herramientas como SonarQube, Prettier y ESLint, y desarrollamos pruebas automatizadas con Jest.",
+        "LINK": "https://globant.com"
+      },
+      {
+        "START": "Septiembre 2024",
+        "TITLE": "Globant",
+        "DESCRIPTION": "Trabajé en el desarrollo y mantenimiento del front-end de un backoffice para AES Corporation, específicamente en el módulo de gestión de inventario. Me enfoqué principalmente en refactorizar código legado.",
         "LINK": "https://globant.com"
       },
       {
         "START": "Noviembre 2023",
         "TITLE": "Globant",
-        "DESCRIPTION": "Trabajé como desarrollador frontend usando Angular para la empresa GDN, en un equipo de alrededor de 15 personas. El proyecto estuvo centrado en permitir a los usuarios acumular puntos con sus compras en el supermercado, lo que permitiría posteriormente ser canjeado por diversas recompensas y beneficios.",
+        "DESCRIPTION": "Front-end en Angular para la empresa GDN, en un equipo de alrededor de 15 personas. El proyecto estuvo centrado en permitir a los usuarios acumular puntos con sus compras en el supermercado, lo que permitiría posteriormente ser canjeado por diversas recompensas y beneficios.",
         "LINK": "https://globant.com"
       },
       {

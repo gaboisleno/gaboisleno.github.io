@@ -17,18 +17,19 @@
     ],
     "CHIPS": [
       "Angular",
-      "React",
       "Javascript",
       "Rxjs",
+      "Bootstrap",
+      "Tailwind",
+      "Jest",
+      "Karma",
+      "ESLint",
+      "Prettier",
       "Spring-Boot",
-      "LoopBack",
-      "Strapi",
       "Docker",
-      "Nativescript",
       "PostgreSQL",
       "MySql",
       "MongoDB",
-      "Bootstrap",
       "Linux",
       "Git"
     ]
@@ -37,9 +38,15 @@
     "TITLE": "Professional experience",
     "LIST": [
       {
-        "START": "Current",
+        "START": "Julio 2025",
         "TITLE": "Globant",
-        "DESCRIPTION": "I am working on a project as a frontend developer for AES Corporation, a multinational company that specializes in the generation and distribution of electrical energy.",
+        "DESCRIPTION": "I participated in the development of a front-end backoffice for the company COTO, using Angular 19. We implemented the Signals API, ensured code quality with tools like SonarQube, Prettier, and ESLint, and developed automated tests with Jest.",
+        "LINK": "https://globant.com"
+      },
+      {
+        "START": "Septiembre 2024",
+        "TITLE": "Globant",
+        "DESCRIPTION": "I worked on the development and maintenance of a front-end backoffice for AES Corporation, specifically within the inventory management module. My main focus was on refactoring legacy code.",
         "LINK": "https://globant.com"
       },
       {
